@@ -1,5 +1,7 @@
 package com.avodotiiets.misc;
 
+import com.avodotiiets.LeetcodeLink;
+
 /**
  * The count-and-say sequence is the sequence of integers with the first five terms as following:
  *
@@ -33,7 +35,7 @@ package com.avodotiiets.misc;
  * which means frequency = 1 and value = 2, the same way "1" is read as "11", so the answer is the concatenation
  * of "12" and "11" which is "1211".
  */
-
+@LeetcodeLink("https://leetcode.com/problems/count-and-say/")
 public class CountAndSay {
 
     public String countAndSay(int n) {

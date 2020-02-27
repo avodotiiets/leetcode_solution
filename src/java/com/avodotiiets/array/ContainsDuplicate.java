@@ -1,6 +1,8 @@
 package com.avodotiiets.array;
 
 
+import com.avodotiiets.LeetcodeLink;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -23,6 +25,7 @@ import java.util.Set;
  * Input: [1,1,1,3,3,4,3,2,4,2]
  * Output: true
  */
+@LeetcodeLink("https://leetcode.com/problems/contains-duplicate/")
 public class ContainsDuplicate {
 
     public boolean containsDuplicate(int[] nums) {

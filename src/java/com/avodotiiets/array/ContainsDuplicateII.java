@@ -1,5 +1,7 @@
 package com.avodotiiets.array;
 
+import com.avodotiiets.LeetcodeLink;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -20,6 +22,7 @@ import java.util.Map;
  * Input: nums = [1,2,3,1,2,3], k = 2
  * Output: false
  */
+@LeetcodeLink("https://leetcode.com/problems/contains-duplicate-ii/")
 public class ContainsDuplicateII {
 
     public boolean containsNearbyDuplicate(int[] nums, int k) {
